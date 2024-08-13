@@ -18,7 +18,7 @@ for i in range(n):
     graph[vertex] = adjs
 
 start_node = input("Enter the initial state node name: ")
-target_node = input("Enter the target node name: ")
+target_node = input("Enter the goal state node name: ")
 path = dfs(graph, start_node, target_node)
 
 if path:
